@@ -1,0 +1,25 @@
+RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA
+Data: 20/10/2023
+Empresa: Abstergo Industries
+Responsável: Louis Henrique Ribeiro de Souza Menezes
+
+Introdução
+Este relatório apresenta o processo de implementação de medidas de segurança na empresa Abstergo Industries, realizado por Louis Henrique Ribeiro de Souza Menezes. O objetivo do projeto foi elencar 3 medidas de segurança em conjunto com os serviços da AWS, com a finalidade de aumentar a segurança na empresa.
+
+Descrição do Projeto
+O projeto de implementação de medidas de segurança foi dividido em 3 medidas de segurança. A seguir, serão descritas as medidas do projeto:
+
+Medida 1: Controle de Acesso e Gerenciamento de Identidade (IAM)
+- Descrição: Implementamos medidas de controle de acesso e gerenciamento de identidade utilizando o AWS Identity and Access Management (IAM). Isso inclui a configuração de permissões de acesso granulares e o princípio do menor privilégio, garantindo que apenas pessoas e recursos autorizados tenham acesso aos recursos da AWS.
+
+Medida 2: Criptografia de Dados em Repouso e em Trânsito
+- Descrição: Reforçamos a segurança dos dados implementando a criptografia de dados em repouso e em trânsito. Utilizamos o AWS Key Management Service (KMS) para gerenciar chaves de criptografia e criptografamos dados em serviços de armazenamento e comunicações entre componentes da infraestrutura.
+
+Medida 3: Monitoramento e Auditoria com o AWS CloudTrail e o Amazon GuardDuty
+- Descrição: Implementamos o AWS CloudTrail para registrar todas as ações realizadas nas contas da AWS, fornecendo visibilidade e rastreabilidade das atividades. Além disso, utilizamos o Amazon GuardDuty para detectar ameaças de segurança em tempo real, o que nos permite responder rapidamente a incidentes de segurança.
+
+Conclusão
+A implementação das medidas de segurança na empresa Abstergo Industries tem como esperado reforçar a segurança dos recursos e dados da empresa, protegendo contra ameaças e garantindo o cumprimento das melhores práticas de segurança. Recomenda-se a continuidade da utilização das medidas implementadas e a busca por novas tecnologias e práticas de segurança que possam melhorar ainda mais a postura de segurança da empresa.
+
+Assinatura do Responsável pelo Projeto:
+Louis Henrique Ribeiro de Souza Menezes
